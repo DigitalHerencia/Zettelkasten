@@ -1,0 +1,121 @@
+version: 5
+dev:
+    enablePreviewV2: true
+    enableSelfContainedVaults: true
+    enableLinkCandidates: true
+    enableExportPodV2: true
+    enableExperimentalIFrameNoteRef: true
+    enableEngineV3: true
+commands:
+    lookup:
+        note:
+            selectionMode: none
+            confirmVaultOnCreate: true
+            vaultSelectionModeOnCreate: smart
+            leaveTrace: false
+            bubbleUpCreateNew: true
+            fuzzThreshold: 0.2
+    randomNote: {}
+    insertNoteLink:
+        aliasMode: prompt
+        enableMultiSelect: true
+    insertNoteIndex:
+        enableMarker: true
+    copyNoteLink:
+        aliasMode: title
+        nonNoteFile:
+            anchorType: prompt
+    templateHierarchy: 3-Resources.Templates
+workspace:
+    vaults:
+        -
+            fsPath: .
+            selfContained: true
+            name: Zettelkasten
+    journal:
+        dailyDomain: 4-Archive.scratch
+        name: 2-Areas
+        dateFormat: y.MM.dd
+        addBehavior: childOfDomain
+        dailyVault: Zettlekasten
+    scratch:
+        name: 4-Archive.scratch
+        dateFormat: y.MM.dd.HHmmss
+        addBehavior: childOfDomain
+    task:
+        name: 1-Projects
+        dateFormat: y.MM.dd
+        addBehavior: childOfCurrent
+        statusSymbols:
+            '': ' '
+            wip: w
+            done: x
+            assigned: a
+            moved: m
+            blocked: b
+            delegated: l
+            dropped: d
+            pending: 'y'
+        taskCompleteStatus:
+            - done
+            - x
+        prioritySymbols:
+            H: high
+            M: medium
+            L: low
+        todoIntegration: true
+        createTaskSelectionType: selectionExtract
+    graph:
+        zoomSpeed: 1
+        createStub: false
+    enableAutoCreateOnDefinition: true
+    enableXVaultWikiLink: true
+    enableRemoteVaultInit: true
+    enableUserTags: true
+    enableHashTags: true
+    workspaceVaultSyncMode: noCommit
+    enableAutoFoldFrontmatter: true
+    enableEditorDecorations: true
+    maxPreviewsCached: 10
+    maxNoteLength: 204800
+    enableFullHierarchyNoteTitle: false
+    enablePersistentHistory: false
+    dendronVersion: 0.83.0
+preview:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableFrontmatterTags: true
+    enableHashesForFMTags: true
+    enablePrettyRefs: true
+    enableKatex: true
+    automaticallyShowPreview: false
+    theme: dark
+publishing:
+    enableFMTitle: false
+    enableNoteTitleForLink: false
+    enablePrettyRefs: false
+    enableKatex: false
+    copyAssets: false
+    siteHierarchies:
+        - root
+    writeStubs: false
+    siteRootDir: ''
+    seo:
+        title: ''
+        description: ''
+    github:
+        enableEditLink: false
+        editLinkText: ''
+        editBranch: ''
+        editViewMode: tree
+    enableSiteLastModified: false
+    enableFrontmatterTags: false
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: false
+    enableTaskNotes: false
+    enablePrettyLinks: false
+    searchMode: search
+    enableHierarchyDisplay: false
+    enableBackLinks: false
+    theme: dark
+    assetsPrefix: ''
