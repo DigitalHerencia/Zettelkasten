@@ -9,7 +9,7 @@ dev:
 commands:
     lookup:
         note:
-            selectionMode: none
+            selectionMode: extract
             confirmVaultOnCreate: true
             vaultSelectionModeOnCreate: smart
             leaveTrace: false
@@ -79,7 +79,6 @@ workspace:
     maxPreviewsCached: 10
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
-    enablePersistentHistory: false
     dendronVersion: 0.83.0
 preview:
     enableFMTitle: true

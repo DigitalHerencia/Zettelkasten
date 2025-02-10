@@ -5,7 +5,7 @@
         }
     ],
     "settings": {
-        "dendron.rootDir": ".D:\\WebDev\\Zettelkasten\\dendron.code-workspace",
+        "dendron.rootDir": "D:\\WebDev\\Zettelkasten\\dendron.code-workspace",
         "files.autoSave": "onFocusChange",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
