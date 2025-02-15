@@ -17,7 +17,16 @@
         "dendron.enableSelfContainedVaultWorkspace": true,
         "dendron.logLevel": "debug",
         "dendron.trace.server": "verbose",
-        "prettier.arrowParens": "avoid"
+        "prettier.arrowParens": "avoid",
+        "editor.wordWrap": "on",
+        "notebook.output.wordWrap": true,
+        "chat.editor.wordWrap": "on",
+        "workbench.editor.closeOnFileDelete": true,
+        "workbench.editor.preferHistoryBasedLanguageDetection": true,
+        "workbench.editor.wrapTabs": true,
+        "workbench.settings.openDefaultSettings": true,
+        "workbench.settings.openDefaultKeybindings": true,
+        "workbench.preferredDarkColorTheme": "GitHub Dark Default"
     },
     "extensions": {
         "recommendations": [

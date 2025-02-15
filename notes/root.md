@@ -4,7 +4,7 @@ title: Root
 desc: >-
   Take a look at the various built in special notes described below and create
   them using the associated commands 
-updated: 1738470842442
+updated: 1739468319560
 created: 1722204131829
 ---
 4289# Welcome to Dendron
@@ -49,7 +49,7 @@ created: 1722204131829
 
  ### Built-in Best Practices
 
- Special notes come with built-in [[Schemas|3-Resources.Schemas.Modules#summary]] and [[Templates|3-Resources.Templates]] applied to them out of the box.You can use this as-is, or customize them for your own needs.
+ Special notes come with built-in Schemas and Templates applied to them out of the box. You can use this as-is, or customize them for your own needs.
 
  ## Links
  - [Getting Started Guide](https://link.dendron.so/6b25)
