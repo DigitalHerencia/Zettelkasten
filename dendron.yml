@@ -12,7 +12,7 @@ commands:
             selectionMode: extract
             confirmVaultOnCreate: true
             vaultSelectionModeOnCreate: smart
-            leaveTrace: false
+            leaveTrace: true
             bubbleUpCreateNew: true
             fuzzThreshold: 0.2
     randomNote: {}
@@ -80,6 +80,7 @@ workspace:
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
     dendronVersion: 0.83.0
+    enablePersistentHistory: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true

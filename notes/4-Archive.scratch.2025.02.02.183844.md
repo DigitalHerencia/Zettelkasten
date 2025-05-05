@@ -57,12 +57,13 @@ ___
 
 💼 **Wholesale Buy:**
 
-[[-   ** $5,000 gets 500g (half a kilo)** at **$10 per gram**|2-Areas.DigitalHerencia.InvestmentResearch]]-   **Breakdown:** 500g = **17.6 ounces** (since 1 oz = 28.35g)
+**\$5,000 gets 500g (half a kilo)** at **$10 per gram**-   
+**Breakdown:** 500g = **17.6 ounces** (since 1 oz = 28.35g)
 -   **Sell price per ounce:** **$800**
 
 📊 **Total Sales:**
 
--   **17.6 oz × $800 = $14,080**
+-   **17.6 oz × \$800 = $14,080**
 -   **Profit: $9,080**
 
 ___
@@ -76,7 +77,7 @@ ___
 
 📊 **Total Sales:**
 
--   **2,500 bags × $20 = $50,000**
+-   **2,500 bags × \$20 = $50,000**
 -   **Profit: $45,000**
 ___
 
@@ -135,9 +136,9 @@ ___
 
 ### **Step 2: Weekly Sales Targets and Cash Flow**
 
- **8 Weeks | 42 Moved | Re-Up at 2 & 5 | 20.6K Total**
+ **8 Weeks | 42 Moved | Recycle at 2 & 5 | 20.6K Total**
 
-| **Week** | **Moved** | **Each Moves** | **Collected** | **Held for Re-Up** | **Available After Re-Up** |
+| **Week** | **Moved** | **Each Moves** | **Collected** | **Held for Recycle** | **Available After Re-Up** |
 | --- | --- | --- | --- | --- | --- |
 | **1** | 4 oz | 2 oz | $3,200 | — | $3,200 |
 | **2** | 5 oz | 2.5 oz | $4,000 | **($5,000 Re-Up)** | $2,200 |
