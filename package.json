@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@dendronhq/dendron-cli": "^0.124.2"
+  }
+}

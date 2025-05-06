@@ -1,0 +1,59 @@
+{
+  "type": {
+    "values": ["idea", "project", "log", "debrief", "tool", "operation", "contact", "reference", "code"],
+    "description": "The fundamental nature of the note",
+    "required": true
+  },
+  "status": {
+    "values": ["draft", "active", "archived", "completed", "pending", "abandoned"],
+    "description": "Current state of this note or related project",
+    "required": true
+  },
+  "priority": {
+    "values": ["low", "medium", "high", "mission-critical"],
+    "description": "Importance level for attention and action",
+    "required": false
+  },
+  "ops-role": {
+    "values": ["strategic", "tactical", "reflective", "archival", "exploratory"],
+    "description": "Operational function this note serves",
+    "required": false
+  },
+  "zone": {
+    "values": ["personal", "dev", "street", "intelligence", "financial", "health"],
+    "description": "Domain or life area this note belongs to",
+    "required": true
+  },
+  "mood": {
+    "values": ["inspired", "focused", "scattered", "exhausted", "curious", "frustrated", "confident"],
+    "description": "Mental state during note creation",
+    "required": false
+  },
+  "visibility": {
+    "values": ["private", "internal", "public"],
+    "description": "Publishing scope for this note",
+    "required": true
+  },
+  "connections": {
+    "type": "array",
+    "description": "Related notes by ID or direct links",
+    "required": false
+  },
+  "tags": {
+    "type": "array",
+    "description": "Freeform tags for additional categorization",
+    "required": false
+  },
+  "created": {
+    "type": "datetime",
+    "description": "Creation timestamp",
+    "required": true,
+    "auto": true
+  },
+  "modified": {
+    "type": "datetime",
+    "description": "Last modification timestamp",
+    "required": true,
+    "auto": true
+  }
+}
