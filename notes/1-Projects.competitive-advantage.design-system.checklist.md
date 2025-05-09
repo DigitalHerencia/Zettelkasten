@@ -1,13 +1,16 @@
 ---
 id: n5mtsrpynw36f9p6937o649
 title: checklist
-desc: ''
-updated: 1722804718132
+status: draft
+priority: medium
+zone: dev
+ops-role: tactical
+visibility: internal
+tags: [design-system, checklist, PARA, project]
+connections: []
+mood: 
 created: 1722390472771
-status: ''
-due: ''
-priority: ''
-owner: ''
+modified: 1722804718132
 ---
 # Implementation Checklist for Design System
 ### Initial Setup

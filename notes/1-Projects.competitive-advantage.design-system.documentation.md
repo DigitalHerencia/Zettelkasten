@@ -2,8 +2,16 @@
 id: vynsh8mbodct28y4pcp0za9
 title: documentation
 desc: ''
-updated: 1722814548794
+updated: 1746612086322
 created: 1722804654736
+status: draft
+priority: medium
+zone: dev
+ops-role: strategic
+visibility: internal
+tags: [design-system, documentation, PARA, project]
+connections: []
+mood: 
 ---
 
 # Templates for Documentation Pages
